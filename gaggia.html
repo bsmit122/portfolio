@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Birk Smith</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="index.html" class="icon solid fa-home"><span>Home</span></a>
+						<a href="index.html#work" class="icon solid fa-folder"><span>Work</span></a>
+						<a href="index.html#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+						<a href="https://www.linkedin.com/in/birksmith/" class="icon brands fa-linkedin"><span>Linkedin</span></a>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+							<article id="work" class="panel">
+								<header>
+									<h2>Gaggiuino Modified Espresso Machine</h2>
+								</header>
+								<p>
+									Gaggiuino is an open source project using an ESP32 microcontroller to control temperature and pressure in the Gaggia Classic espresso machine. PID controllers are a popular modification to this machine due to its outdated design, which results in overheating. I take no credit for the work done by the developers, I assembled my machine using wiring diagrams and code from the Github, but there were still plenty of things to figure out on my own.
+								</p>
+								<p>
+									
+									<a href="https://gaggiuino.github.io/#/" target="_blank">Link to Gaggiuino Github Page</a>
+
+								</p>
+								<p>
+									The advantage of using an Arduino, ESP32, or other microcontroller instead of a basic PID is finer control of the pressure supplied by the pump while brewing coffee, which affects flavor.
+								</p>
+									<div class="col-4 col-6-medium col-12-small">
+										<a class="image fit"><img src="images/gaggia1.jpg" alt=""></a>
+									</div>
+								<h3>
+									Goals
+								</h3>
+								<ul>
+									<li>Install the Gaggiuino modification to improve temperature consistancy and flavor from the Gaggia Classic</li>
+									<li>Learn about microcontrollers, compiling code, and electronics</li>
+								</ul>
+
+								<h3>
+									Methods
+								</h3>
+								<ul>
+									<li>Wire the control PCB to the low voltage circuit in the coffee machine</li>
+									<li>Safely modify the 120V AC circuit to supply power to the PCB and solid state relay</li>
+									<li>Splice the pump outlet hose and install a pressure transducer to send data to the controller</li>
+									<li>Compile the source code and upload it to the ESP32 using VScode and PlatformIO</li>
+								</ul>
+								<div style="text-align: center;">
+									<img src="images/gaggia2.jpg" width="60%" class="center"/>
+								</div>
+
+								<h3>
+									Results
+								</h3>
+								<ul>
+									<li>Granular control and improved consistency of water temperature</li>
+									<li>Gained ability to control pressure supplied by the pump throughout the extraction</li>
+									<li>Delicious coffee every morning</li>
+								</ul>
+							
+								<section>
+									<div class="col-4">
+										<div class="col-4 col-6-medium col-12-small">
+											<a class="image fit"><img src="images/gaggia_thumb.jpg" alt=""></a>
+										</div>
+									</div>
+								</section>
+							</article>
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<!--<li>&copy; Untitled.</li><li>-->Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
